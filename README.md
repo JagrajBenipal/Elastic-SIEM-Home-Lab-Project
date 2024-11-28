@@ -1,7 +1,7 @@
 # Elastic SIEM Home Lab Project
 
 ## Objective
-The objective of this project was to build a home lab environment to simulate and analyze security events using the Elastic Security Information and Event Management (SIEM) system. The project involved ingesting logs, generating test telemetry, and performing detailed log analysis to identify and respond to potential security threats. This hands-on approach was designed to enhance practical cybersecurity skills relevant to SOC Analyst roles.
+The objective of this project was to build a home lab environment to simulate and analyze security events using the Elastic Security Information and Event Management (SIEM) system. The project involved ingesting logs, generating test telemetry, and performing detailed log analysis to identify and respond to potential security threats. This hands-on approach was designed to enhance practical cybersecurity skills.
 
 ## Skills Learned
 - Configuring and managing Elastic SIEM for real-time log analysis.
