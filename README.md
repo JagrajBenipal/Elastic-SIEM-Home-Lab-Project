@@ -25,7 +25,7 @@ I created a free Elastic Cloud account and deployed the SIEM environment.
 
 **Rules Overview**
 
-![Rules Overview](1.png)
+![Rules Overview](Rules-Overview.png)
 
 The screenshot shows the detection rules within Elastic SIEM. Rules like "Nmap Scan" were enabled for monitoring specific security events.
 
@@ -36,7 +36,7 @@ I installed the Elastic Agent on my Kali Linux VM to forward logs to the SIEM.
 
 **Dashboard Overview**
 
-![Dashboard Overview](2.png)
+![Dashboard Overview](Dashboard-Overview.png)
 
 The dashboard displays a summary of enabled rules, rule executions, and their statuses, providing insights into the monitoring environment.
 
@@ -47,7 +47,7 @@ Using Nmap, I conducted various network scans to generate logs. This included sc
 
 **Nmap Scan Results**
 
-![Nmap Scan Results](6.png)
+![Nmap Scan Results](Generating-Security-Telemetry.png)
 
 Nmap results showing open ports and detected services on localhost. These scans generated logs for analysis in the SIEM.
 
@@ -58,7 +58,7 @@ I used the Elastic Discover tool to query and analyze the logs ingested from the
 
 **Log Analysis**
 
-![Log Analysis](3.png)
+![Log Analysis](Analyzing-Logs-in-Elastic-SIEM.png)
 
 This screenshot highlights the detailed log entries, including timestamps, event IDs, and other metadata for security events.
 
@@ -69,7 +69,7 @@ I built a custom dashboard to visualize security events over time.
 
 **Visualization of Events**
 
-![Visualization of Events](5.png)
+![Visualization of Events](Creating-Dashboards.png)
 
 Custom visualizations display event trends, such as spikes in detected scans, helping identify unusual patterns.
 
@@ -80,7 +80,7 @@ Using Elastic's observability tools, I monitored the Kali Linux VM's performance
 
 **System Metrics**
 
-![System Metrics](4.png)
+![System Metrics](Monitoring-System-Performance.png)
 
 The screenshot shows resource usage for the Kali VM, including CPU, memory, and disk utilization.
 
